@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'idea'
 
 repositories {
     jcenter()
@@ -14,12 +15,5 @@ compileJava.options.encoding = 'UTF-8'
 javadoc.options.encoding = 'UTF-8'
 
 dependencies {
-
     compile name: 'robocode'
-}
-
-task 'create-dirs' << {
-    sourceSets.all { set ->
-        set.allSource.srcDirs.each { it.mkdirs() }
-    }
 }
