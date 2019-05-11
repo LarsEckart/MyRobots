@@ -6,7 +6,7 @@ Download latest install jar from http://robocode.sourceforge.net/.
 Install via
 
 ```
-java -jar ~/Downloads/robocode-1.9.3.2-setup.jar
+java -jar ~/Downloads/robocode-1.9.3.6-setup.jar
 ```
 
 Robocode can now be started from your home folder via
